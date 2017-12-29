@@ -1,0 +1,129 @@
+@import url(css/base.css);
+.box{
+  width: 100%;
+  height:.8rem;
+  background: #aaa786;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box p{
+  font-size:.4rem;
+}
+#wrapper {
+  width: 100%;
+  height: 0.7rem;
+  overflow: hidden;
+  line-height: .7rem;
+  border-bottom: 1px solid #ccc;
+  //display: flex;
+  box-sizing: border-box;
+}
+
+.con {
+  width: 99%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  text-align: justify;
+  line-height: 0.38rem;
+  font-size: .3rem;
+  color: #000000;
+  padding: .2rem;
+  font-family: "微软雅黑";
+  display: flex;
+}
+#scroller li{
+  width:auto;
+  //height: .7rem;
+  font-size: .3rem;
+  padding-left: .3rem;
+  float: left;
+}
+section{
+  width: 100%;
+  height: .6rem;
+      .new{
+          width: 100%;
+          height: .6rem;
+          border-bottom: 1px solid #dadada;
+          display: flex;
+          align-items: center;
+               li{
+                  width:1rem;
+                  height: .4rem;
+                  font-size:.3rem;
+                  margin-right:.25rem;
+                  padding-left: .1rem;
+              }
+      }
+}
+.banner{
+  width: 100%;
+  height:3rem;
+  background: #dadada;
+  position: relative;
+}
+.banner img{
+  width: 100%;
+  height: 100%;
+  display: block !important;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.news{
+  width: 100%;
+  height: 6rem;
+  .image{
+    width: 100%;
+    height: 4.5rem;
+    background: #0b2c89;
+  }
+  .news1{
+    width: 100%;
+    height: 1.5rem;
+    text-align: center;
+    font-size: .3rem;
+    box-sizing: border-box;
+  }
+
+}
+.image img{
+  width: 100%;
+  height: 100%;
+}
+.title{
+  width: 100%;
+  height: 1rem;
+  font-size: .4rem;
+  line-height: 1rem;
+  padding-left: .2rem;
+}
+.word{
+  width: 100%;
+  height: 5.5rem;
+  font-size: .35rem;
+  text-indent:.7rem;
+  line-height: .6rem;
+}
+.img{
+  width: 100%;
+  height:5rem ;
+}
+.img img{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.word1{
+  width: 100%;
+  height:6rem;
+  font-size: .35rem;
+  text-indent:.7rem;
+  line-height: .6rem;
+}
+
+
+
